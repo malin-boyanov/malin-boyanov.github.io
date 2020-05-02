@@ -1,0 +1,49 @@
+{
+  "app": {
+    "title": "SignatureRecipeBook",
+    "titleShort": "SignatureRB",
+    "recipes": "RECIPES",
+    "addRecipe": "ADD RECIPE",
+    "search": "Search in title or by ingredients( , )"
+  },
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "LogIn": "LogIn",
+    "SignUp": "SignUp",
+    "oneUpperCase": "At least one upper case English letter",
+    "oneLowerCase": "At least one lower case English letter",
+    "oneDigit": "At least one digit",
+    "oneSpecial": "At least one special character",
+    "minimum": "Minimum eight in length"
+  },
+  "form": {
+    "close": "CLOSE",
+    "submit": "SUBMIT"
+  },
+  "algorithm": {
+    "title": "Title",
+    "created": "Created"
+  },
+  "recipe": {
+    "cooking": "COOKING",
+    "ingredients": "INGREDIENTS"
+  },
+  "recipeForm": {
+    "title": "Title",
+    "description": "Description",
+    "cooking": "Cooking",
+    "details": "Details",
+    "addIngredient": "ADD INGREDIENT",
+    "uploadImage": "UPLOAD IMAGE",
+    "quantity": "Quantity",
+    "unit": "Unit",
+    "name": "Name"
+  },
+  "confirm": {
+    "areYouSure": "Are you sure?",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

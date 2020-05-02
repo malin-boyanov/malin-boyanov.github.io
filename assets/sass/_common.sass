@@ -1,0 +1,57 @@
+@font-face 
+  font-family: 'Marck Script'
+  src: url('/assets/font/MarckScript-Regular.ttf')
+  
+i
+  cursor: pointer
+  :focus
+    outline: none
+
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched 
+  border-left: 5px solid $red
+  padding-left: 7px
+
+.info
+  color: $red
+
+.required:after 
+  content:" *"
+  color: $red
+
+.small-screen 
+  display: none
+
+@media (max-width: $breakpoint)
+  .small-screen 
+    display: inline-block
+  .big-screen 
+    display: none
+
+.btn-link-bold
+  font-weight: $font-weight-bold
+  text-decoration: none
+  
+.btn-link-bold-red
+  color: $red
+
+  @include hover()
+    color: $red
+
+  &:focus,
+  &.focus
+    color: $red
+
+  @extend .btn-link-bold
+    
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus 
+  outline: none !important
+  box-shadow: none
+
+.form-control:focus
+  -webkit-box-shadow: none
+  box-shadow: none
